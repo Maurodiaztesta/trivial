@@ -1,0 +1,30 @@
+.respuestas{
+    margin-top: 40px;
+    &__res{
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 20px;
+    }
+    &__res:hover{
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 20px;
+        background-color: lightgray;
+    }
+    &__correcta{
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 20px;
+        background-color: lightgreen;
+    }
+    &__incorrecta{
+        margin: 20px;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 20px;
+        background-color: lightcoral;
+    }
+}
